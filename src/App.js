@@ -23,19 +23,19 @@ class MyForm extends React.Component {
           <p>Enter your name:</p>
           <input
             type='text'
-            name='username'
+            class='form'
             onChange={this.myChangeHandler}
           />
           <p>Enter your age:</p>
           <input
             type='text'
-            name='age'
+            class='form'
             onChange={this.myChangeHandler}
           />
           <p>Enter your email:</p>
           <input
             type='email'
-            name='email'
+            class='form'
             onChange={this.myChangeHandler}
           />
           <div className="createAccount">
@@ -43,6 +43,7 @@ class MyForm extends React.Component {
                 <button type="submit">Create Account</button>
             </div>
                 <small>Already Have an Account?</small>
+
           </div>
         </div>
       </form>

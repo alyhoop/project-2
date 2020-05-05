@@ -1,18 +1,30 @@
+/* RGB */
+/*
+$color1: rgba(249, 160, 63, 1);
+$color2: rgba(247, 212, 136, 1);
+$color3: rgba(104, 182, 132, 1);
+$color4: rgba(192, 218, 116, 1);
+$color5: rgba(190, 237, 170, 1); */
+
+
 body {
-  background-color: rgb(235, 117, 125);
-  color: white;
+  background-color: rgba(249, 160, 63, 1);
   padding: 40px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-form {
+.form {
   box-sizing: border-box;
   border-radius: 10px;
-  color: rgb(245, 220, 144);
+  color: rgba(247, 212, 136, 1);
 }
 
 .createAccount {
   margin: 1%;
   padding: 1%;
+}
+
+.button {
+  color: rgba(190, 237, 170, 1);
 }
