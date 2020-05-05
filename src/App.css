@@ -1,13 +1,16 @@
 body {
-  background-color: #282c34;
+  background-color: rgb(235, 117, 125);
   color: white;
   padding: 40px;
   font-family: Arial;
   text-align: center;
 }
 
-const Form =  {
+form {
   box-sizing: border-box;
   border-radius: 10px;
-  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.createAccount {
+  margin: 1%;
 }

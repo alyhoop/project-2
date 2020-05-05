@@ -37,6 +37,10 @@ class MyForm extends React.Component {
         name='email'
         onChange={this.myChangeHandler}
       />
+      <div className="createAccount">
+            <button type="submit">Create Account</button>
+            <small>Already Have an Account?</small>
+          </div>
       </form>
     );
   }
