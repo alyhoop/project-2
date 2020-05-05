@@ -30,6 +30,12 @@ class MyForm extends React.Component {
         name='age'
         onChange={this.myChangeHandler}
       />
+      <p>Enter your email:</p>
+      <input
+        type='email'
+        name='email'
+        onChange={this.myChangeHandler}
+      />
       </form>
     );
   }
