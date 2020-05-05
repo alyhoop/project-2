@@ -25,6 +25,10 @@ body {
   padding: 1%;
 }
 
-.button {
+.createAccount button {
   color: rgba(190, 237, 170, 1);
+}
+
+.createAccount :hover {
+
 }
