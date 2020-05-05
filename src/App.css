@@ -9,8 +9,10 @@ body {
 form {
   box-sizing: border-box;
   border-radius: 10px;
+  color: rgb(245, 220, 144);
 }
 
 .createAccount {
   margin: 1%;
+  padding: 1%;
 }

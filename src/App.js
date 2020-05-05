@@ -18,29 +18,33 @@ class MyForm extends React.Component {
   render() {
     return (
       <form>
-      <h1>Hello {this.state.username} {this.state.age} {this.state.email}</h1>
-      <p>Enter your name:</p>
-      <input
-        type='text'
-        name='username'
-        onChange={this.myChangeHandler}
-      />
-      <p>Enter your age:</p>
-      <input
-        type='text'
-        name='age'
-        onChange={this.myChangeHandler}
-      />
-      <p>Enter your email:</p>
-      <input
-        type='email'
-        name='email'
-        onChange={this.myChangeHandler}
-      />
-      <div className="createAccount">
-            <button type="submit">Create Account</button>
-            <small>Already Have an Account?</small>
+      <div className="form">
+          <h1>Hello!</h1>
+          <p>Enter your name:</p>
+          <input
+            type='text'
+            name='username'
+            onChange={this.myChangeHandler}
+          />
+          <p>Enter your age:</p>
+          <input
+            type='text'
+            name='age'
+            onChange={this.myChangeHandler}
+          />
+          <p>Enter your email:</p>
+          <input
+            type='email'
+            name='email'
+            onChange={this.myChangeHandler}
+          />
+          <div className="createAccount">
+            <div className="button">
+                <button type="submit">Create Account</button>
+            </div>
+                <small>Already Have an Account?</small>
           </div>
+        </div>
       </form>
     );
   }
