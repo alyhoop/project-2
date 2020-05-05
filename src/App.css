@@ -5,3 +5,9 @@ body {
   font-family: Arial;
   text-align: center;
 }
+
+const Form =  {
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}

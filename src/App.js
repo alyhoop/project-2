@@ -7,6 +7,7 @@ class MyForm extends React.Component {
     this.state = {
       username: '',
       age: null,
+      email: ''
     };
   }
   myChangeHandler = (event) => {
@@ -17,7 +18,7 @@ class MyForm extends React.Component {
   render() {
     return (
       <form>
-      <h1>Hello {this.state.username} {this.state.age}</h1>
+      <h1>Hello {this.state.username} {this.state.age} {this.state.email}</h1>
       <p>Enter your name:</p>
       <input
         type='text'
